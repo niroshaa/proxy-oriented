@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="http://localhost:3530/" />
+  <setParameter name="ATTRIBUTEConnectionString-Web.config Connection String" value="Data Source=NIROSHE-PC;Initial Catalog=ATTRIBUTE;Integrated Security=True" />
+  <setParameter name="ATTRIBUTEConnectionString-Deployment Connection String" value="Data Source=NIROSHE-PC;Initial Catalog=ATTRIBUTE;Integrated Security=True" />
+</parameters>

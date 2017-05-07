@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="user2.master.cs" Inherits="user2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+
+        .auto-style1 {
+            width: 100%;
+            height: 514px;
+        }
+        .auto-style11 {
+            left: 0px;
+            top: 0px;
+            height: 198px;
+            width: 200px;
+        }
+        .auto-style12 {
+            margin-right: 164;
+            width: 206px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table class="auto-style1">
+        <tr>
+            <td class="auto-style12">
+                <br />
+                <br />
+                <table class="auto-style11">
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click">HOME</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">VIEW FILE</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click">DOWNLOAD FILE</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click">LOG OUT</asp:LinkButton>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+                <br /></td>
+            <td class="auto-style7">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</asp:Content>
+
